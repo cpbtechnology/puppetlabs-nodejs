@@ -11,7 +11,7 @@
 class nodejs(
   $dev_package = false,
   $manage_repo = false,
-  $proxy       = ''
+  $proxy       = '',
   $version     = 'present'
 ) inherits nodejs::params {
   #input validation
